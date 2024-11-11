@@ -1,0 +1,13 @@
+[package]
+name = "lru_cache"
+version = "0.1.0"
+edition = "2021"
+authors = ["Arnaud ALDEBERT <a.aldebert@et.esiea.fr>"]
+description = "Implémentation d'un cache LRU en Rust pour mon évaluation de fin de semestre"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "cache_benchmark"
+harness = false
